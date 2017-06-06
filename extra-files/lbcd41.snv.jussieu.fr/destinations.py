@@ -31,5 +31,3 @@ def cluster(user, tool):
         return "cluster"
     else:
         return final_destination
-
-
