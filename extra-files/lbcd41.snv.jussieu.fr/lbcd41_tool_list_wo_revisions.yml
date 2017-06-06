@@ -1,0 +1,955 @@
+tools:
+- name: msp_sr_bowtie
+  owner: drosofff
+  tool_panel_section_label: Mississippi tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: yac_clipper
+  owner: drosofff
+  tool_panel_section_label: Mississippi tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: msp_sr_signature
+  owner: drosofff
+  tool_panel_section_label: Mississippi tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: msp_sr_readmap_and_size_histograms
+  owner: drosofff
+  tool_panel_section_label: Mississippi tools (Dev)
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sra_tools
+  owner: iuc
+  tool_panel_section_label: metavisitor 1.2
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: trinityrnaseq
+  owner: anmoljh
+  tool_panel_section_label: metavisitor 1.2
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: get_orfs_or_cdss
+  owner: peterjc
+  tool_panel_section_label: metavisitor 1.2
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: msp_blastparser_and_hits
+  owner: drosofff
+  tool_panel_section_label: metavisitor 1.2
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: bowtie2
+  owner: devteam
+  tool_panel_section_label: metavisitor 1.2
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: msp_fasta_tabular_converter
+  owner: drosofff
+  tool_panel_section_label: metavisitor 1.2
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: blast_to_scaffold
+  owner: drosofff
+  tool_panel_section_label: metavisitor 1.2
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: blastn_to_scaffold
+  owner: drosofff
+  tool_panel_section_label: metavisitor 1.2
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: msp_sr_bowtie
+  owner: drosofff
+  tool_panel_section_label: metavisitor 1.2
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: msp_cap3
+  owner: drosofff
+  tool_panel_section_label: metavisitor 1.2
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: regex_find_replace
+  owner: jjohnson
+  tool_panel_section_label: metavisitor 1.2
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fetch_fasta_from_ncbi
+  owner: drosofff
+  tool_panel_section_label: metavisitor 1.2
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: blastx_to_scaffold
+  owner: drosofff
+  tool_panel_section_label: metavisitor 1.2
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: khmer_normalize_by_median
+  owner: iuc
+  tool_panel_section_label: metavisitor 1.2
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fasta_filter_by_length
+  owner: devteam
+  tool_panel_section_label: FASTA manipulation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fastq_to_fasta
+  owner: devteam
+  tool_panel_section_label: 'NGS: QC and manipulation'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: msp_fasta_tabular_converter
+  owner: drosofff
+  tool_panel_section_label: GED Basic NGS file manipulation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: patser
+  owner: mvdbeek
+  tool_panel_section_label: Mississippi tools (Dev)
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
+- name: generate_sliding_windows
+  owner: mvdbeek
+  tool_panel_section_label: Mississippi tools (Dev)
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
+- name: mismatch_frequencies
+  owner: mvdbeek
+  tool_panel_section_label: Mississippi tools (Dev)
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
+- name: find_in_reference
+  owner: jjohnson
+  tool_panel_section_label: Marius tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cummerbund
+  owner: jjohnson
+  tool_panel_section_label: Marius tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: scythe
+  owner: nikhil-joshi
+  tool_panel_section_label: Marius tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: tables_arithmetic_operations
+  owner: devteam
+  tool_panel_section_label: Text Manipulation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: concatenate_multiple_datasets
+  owner: mvdbeek
+  tool_panel_section_label: Text Manipulation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: text_processing
+  owner: bgruening
+  tool_panel_section_label: Text Manipulation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: text_processing
+  owner: bgruening
+  tool_panel_section_label: Text Manipulation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: text_processing
+  owner: bgruening
+  tool_panel_section_label: Text Manipulation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: datamash_wrapper
+  owner: agordon
+  tool_panel_section_label: Text Manipulation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: add_input_name_as_column
+  owner: mvdbeek
+  tool_panel_section_label: Text Manipulation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: regex_replace
+  owner: kellrott
+  tool_panel_section_label: Text Manipulation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: column_maker
+  owner: devteam
+  tool_panel_section_label: Filter and Sort
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: subtract_query
+  owner: devteam
+  tool_panel_section_label: Join, Subtract and Group
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: tabular_to_fasta
+  owner: devteam
+  tool_panel_section_label: FASTA manipulation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fasta_to_tabular
+  owner: devteam
+  tool_panel_section_label: FASTA manipulation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: bamtools
+  owner: devteam
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: bigwig_to_wig
+  owner: nikos
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fml_gff3togtf
+  owner: vipints
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: annotation_profiler
+  owner: devteam
+  tool_panel_section_label: Operate on Genomic Intervals
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: join
+  owner: devteam
+  tool_panel_section_label: Operate on Genomic Intervals
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: intersect
+  owner: devteam
+  tool_panel_section_label: Operate on Genomic Intervals
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: get_flanks
+  owner: devteam
+  tool_panel_section_label: Operate on Genomic Intervals
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: flanking_features
+  owner: devteam
+  tool_panel_section_label: Operate on Genomic Intervals
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: coverage
+  owner: devteam
+  tool_panel_section_label: Operate on Genomic Intervals
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: concat
+  owner: devteam
+  tool_panel_section_label: Operate on Genomic Intervals
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cluster
+  owner: devteam
+  tool_panel_section_label: Operate on Genomic Intervals
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: bed_shuffle
+  owner: xuebing
+  tool_panel_section_label: Operate on Genomic Intervals
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: bed_resize
+  owner: xuebing
+  tool_panel_section_label: Operate on Genomic Intervals
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: bed_shuffle_chrom
+  owner: xuebing
+  tool_panel_section_label: Operate on Genomic Intervals
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: subtract
+  owner: devteam
+  tool_panel_section_label: Operate on Genomic Intervals
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: complement
+  owner: devteam
+  tool_panel_section_label: Operate on Genomic Intervals
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: compute_q_values
+  owner: devteam
+  tool_panel_section_label: Statistics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: t_test_two_samples
+  owner: devteam
+  tool_panel_section_label: Statistics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: histogram
+  owner: devteam
+  tool_panel_section_label: Statistics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: weblogo3
+  owner: devteam
+  tool_panel_section_label: Statistics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: correlation
+  owner: devteam
+  tool_panel_section_label: Statistics
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: xy_plot
+  owner: devteam
+  tool_panel_section_label: Graph/Display Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: heat_map_creation
+  owner: md-anderson-bioinformatics
+  tool_panel_section_label: Graph/Display Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: rcve
+  owner: devteam
+  tool_panel_section_label: Multiple regression
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: partialr_square
+  owner: devteam
+  tool_panel_section_label: Multiple regression
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: logistic_regression_vif
+  owner: devteam
+  tool_panel_section_label: Multiple regression
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: linear_regression
+  owner: devteam
+  tool_panel_section_label: Multiple regression
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: best_regression_subsets
+  owner: devteam
+  tool_panel_section_label: Multiple regression
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: principal_component_analysis
+  owner: devteam
+  tool_panel_section_label: Multivariate Analysis
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: kernel_principal_component_analysis
+  owner: devteam
+  tool_panel_section_label: Multivariate Analysis
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mutate_snp_codon
+  owner: devteam
+  tool_panel_section_label: Evolution
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: seqtk
+  owner: iuc
+  tool_panel_section_label: FASTA manipulation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: seqtk
+  owner: iuc
+  tool_panel_section_label: FASTA manipulation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fasta_concatenate_by_species
+  owner: devteam
+  tool_panel_section_label: FASTA manipulation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fasta_compute_length
+  owner: devteam
+  tool_panel_section_label: FASTA manipulation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fastx_collapser
+  owner: devteam
+  tool_panel_section_label: 'NGS: QC and manipulation'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fasta_nucleotide_changer
+  owner: devteam
+  tool_panel_section_label: FASTA manipulation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fasta_formatter
+  owner: devteam
+  tool_panel_section_label: FASTA manipulation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fasta_clipping_histogram
+  owner: devteam
+  tool_panel_section_label: FASTA manipulation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: get_orfs_or_cdss
+  owner: peterjc
+  tool_panel_section_label: FASTA manipulation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: megablast_xml_parser
+  owner: devteam
+  tool_panel_section_label: 'NGS: Mapping'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: megablast_wrapper
+  owner: devteam
+  tool_panel_section_label: 'NGS: Mapping'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: bwa
+  owner: devteam
+  tool_panel_section_label: 'NGS: Mapping'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: hisat2
+  owner: iuc
+  tool_panel_section_label: 'NGS: Mapping'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: bowtie2
+  owner: devteam
+  tool_panel_section_label: 'NGS: Mapping'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: bowtie_wrappers
+  owner: devteam
+  tool_panel_section_label: 'NGS: Mapping'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: lastz
+  owner: devteam
+  tool_panel_section_label: 'NGS: Mapping'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: lastz_paired_reads
+  owner: devteam
+  tool_panel_section_label: 'NGS: Mapping'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: tophat2
+  owner: devteam
+  tool_panel_section_label: 'NGS: Mapping'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: rgrnastar
+  owner: iuc
+  tool_panel_section_label: 'NGS: Mapping'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: samtools_slice_bam
+  owner: devteam
+  tool_panel_section_label: 'NGS: SAM Tools'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: samtools_rmdup
+  owner: devteam
+  tool_panel_section_label: 'NGS: SAM Tools'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: samtools_flagstat
+  owner: devteam
+  tool_panel_section_label: 'NGS: SAM Tools'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sam_pileup
+  owner: devteam
+  tool_panel_section_label: 'NGS: SAM Tools'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sam_merge
+  owner: devteam
+  tool_panel_section_label: 'NGS: SAM Tools'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sam_bitwise_flag_filter
+  owner: devteam
+  tool_panel_section_label: 'NGS: SAM Tools'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sam2interval
+  owner: devteam
+  tool_panel_section_label: 'NGS: SAM Tools'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pileup_parser
+  owner: devteam
+  tool_panel_section_label: 'NGS: SAM Tools'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pileup_interval
+  owner: devteam
+  tool_panel_section_label: 'NGS: SAM Tools'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: samtool_filter2
+  owner: devteam
+  tool_panel_section_label: 'NGS: SAM Tools'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: samtools_sort
+  owner: iuc
+  tool_panel_section_label: 'NGS: SAM Tools'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sam_to_bam
+  owner: devteam
+  tool_panel_section_label: 'NGS: SAM Tools'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: samtools_mpileup
+  owner: devteam
+  tool_panel_section_label: 'NGS: SAM Tools'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: bam_to_bigwig
+  owner: brad-chapman
+  tool_panel_section_label: 'NGS: SAM Tools'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sambamba_filter
+  owner: lomereiter
+  tool_panel_section_label: 'NGS: SAM Tools'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: samtools_sort
+  owner: devteam
+  tool_panel_section_label: 'NGS: SAM Tools'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: samtools_idxstats
+  owner: peterjc
+  tool_panel_section_label: 'NGS: SAM Tools'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: bam_to_sam
+  owner: devteam
+  tool_panel_section_label: 'NGS: SAM Tools'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: samtools_stats
+  owner: devteam
+  tool_panel_section_label: 'NGS: SAM Tools'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: samtools_idxstats
+  owner: devteam
+  tool_panel_section_label: 'NGS: SAM Tools'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: art
+  owner: iuc
+  tool_panel_section_label: 'NGS: Simulation'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: sample
+  owner: cjav
+  tool_panel_section_label: 'NGS: Simulation'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: hgv_hilbertvis
+  owner: devteam
+  tool_panel_section_label: Phenotype Association
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: hgv_fundo
+  owner: devteam
+  tool_panel_section_label: Phenotype Association
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: divide_pg_snp
+  owner: devteam
+  tool_panel_section_label: Phenotype Association
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ctd_batch
+  owner: devteam
+  tool_panel_section_label: Phenotype Association
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: psicdhit
+  owner: pegoraro
+  tool_panel_section_label: Search and cluster
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
+- name: vsearch
+  owner: iuc
+  - null
+  tool_panel_section_label: Search and cluster
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vsearch
+  owner: iuc
+  tool_panel_section_label: Search and cluster
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: trinityrnaseq
+  owner: bhaas
+  tool_panel_section_label: 'NGS: Assembly'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cuffmerge
+  owner: devteam
+  tool_panel_section_label: 'NGS: RNA Analysis'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cufflinks
+  owner: devteam
+  tool_panel_section_label: 'NGS: RNA Analysis'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cuffcompare
+  owner: devteam
+  tool_panel_section_label: 'NGS: RNA Analysis'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: htseq_count
+  owner: lparsons
+  tool_panel_section_label: 'NGS: RNA Analysis'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cuffdiff
+  owner: devteam
+  tool_panel_section_label: 'NGS: RNA Analysis'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: short_reads_trim_seq
+  owner: devteam
+  tool_panel_section_label: 'NGS: QC and manipulation'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: short_reads_figure_score
+  owner: devteam
+  tool_panel_section_label: 'NGS: QC and manipulation'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fastx_trimmer
+  owner: devteam
+  tool_panel_section_label: 'NGS: QC and manipulation'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fastx_reverse_complement
+  owner: devteam
+  tool_panel_section_label: 'NGS: QC and manipulation'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fastx_renamer
+  owner: devteam
+  tool_panel_section_label: 'NGS: QC and manipulation'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fastx_quality_statistics
+  owner: devteam
+  tool_panel_section_label: 'NGS: QC and manipulation'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fastx_clipper
+  owner: devteam
+  tool_panel_section_label: 'NGS: QC and manipulation'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fastx_barcode_splitter
+  owner: devteam
+  tool_panel_section_label: 'NGS: QC and manipulation'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fastx_artifacts_filter
+  owner: devteam
+  tool_panel_section_label: 'NGS: QC and manipulation'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fastq_quality_filter
+  owner: devteam
+  tool_panel_section_label: 'NGS: QC and manipulation'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fastq_quality_converter
+  owner: devteam
+  tool_panel_section_label: 'NGS: QC and manipulation'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fastq_quality_boxplot
+  owner: devteam
+  tool_panel_section_label: 'NGS: QC and manipulation'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fastqc
+  owner: devteam
+  tool_panel_section_label: 'NGS: QC and manipulation'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fastq_all_to_sanger
+  owner: geert-vandeweyer
+  tool_panel_section_label: 'NGS: QC and manipulation'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fastq_join
+  owner: lparsons
+  tool_panel_section_label: 'NGS: QC and manipulation'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fastq_paired_end_deinterlacer
+  owner: devteam
+  tool_panel_section_label: 'NGS: QC and manipulation'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fastq_groomer
+  owner: devteam
+  tool_panel_section_label: 'NGS: QC and manipulation'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: trimmomatic
+  owner: pjbriggs
+  tool_panel_section_label: 'NGS: QC and manipulation'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fastx_nucleotides_distribution
+  owner: devteam
+  tool_panel_section_label: 'NGS: QC and manipulation'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: docker_toolfactory_alpha
+  owner: mvdbeek
+  tool_panel_section_label: Install Test
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
+- name: repeat_masker
+  owner: bgruening
+  tool_panel_section_label: Install Test
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: freebayes
+  owner: devteam
+  tool_panel_section_label: test-tools beta
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: tool_factory_2
+  owner: fubar
+  tool_panel_section_label: test-tools beta
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ireport
+  owner: saskia-hiltemann
+  tool_panel_section_label: test-tools beta
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: toolfactory
+  owner: fubar
+  tool_panel_section_label: test-tools beta
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: dwgsim
+  owner: nilshomer
+  tool_panel_section_label: test-tools beta
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: bwa_mem
+  owner: crs4
+  tool_panel_section_label: test-tools beta
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fml_wig2bed
+  owner: vipints
+  tool_panel_section_label: BEDtools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: picard_plus
+  owner: devteam
+  tool_panel_section_label: Picard Plus Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: picard_plus
+  owner: devteam
+  tool_panel_section_label: Picard Plus Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ncbi_blast_plus
+  owner: devteam
+  tool_panel_section_label: NCBI BLAST+
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ncbi_blast_plus
+  owner: devteam
+  tool_panel_section_label: NCBI BLAST+
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ncbi_blast_plus
+  owner: devteam
+  tool_panel_section_label: NCBI BLAST+
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ncbi_blast_plus
+  owner: devteam
+  tool_panel_section_label: NCBI BLAST+
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: get_orfs_or_cdss
+  owner: peterjc
+  tool_panel_section_label: hmmr scan
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: repenrich
+  owner: drosofff
+  - aed130b47d36
+  tool_panel_section_label: Differential Expression
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: deseq2
+  owner: iuc
+  tool_panel_section_label: Differential Expression
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: deseq_normalization
+  owner: mvdbeek
+  tool_panel_section_label: Differential Expression
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
+- name: r_goseq_1_22_0
+  owner: mvdbeek
+  tool_panel_section_label: Differential Expression
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: featurecounts
+  owner: yhoogstrate
+  tool_panel_section_label: Differential Expression
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfflatten
+  owner: anton
+  tool_panel_section_label: VCF Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfgenotypes
+  owner: anton
+  tool_panel_section_label: VCF Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfhethom
+  owner: anton
+  tool_panel_section_label: VCF Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfbedintersect
+  owner: anton
+  tool_panel_section_label: VCF Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcf2tsv
+  owner: anton
+  tool_panel_section_label: VCF Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcffixup
+  owner: anton
+  tool_panel_section_label: VCF Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfvcfintersect
+  owner: anton
+  tool_panel_section_label: VCF Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfdistance
+  owner: anton
+  tool_panel_section_label: VCF Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcffilter
+  owner: anton
+  tool_panel_section_label: VCF Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfrandomsample
+  owner: anton
+  tool_panel_section_label: VCF Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfallelicprimitives
+  owner: anton
+  tool_panel_section_label: VCF Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfannotate
+  owner: anton
+  tool_panel_section_label: VCF Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfsort
+  owner: anton
+  tool_panel_section_label: VCF Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfcombine
+  owner: anton
+  tool_panel_section_label: VCF Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfleftalign
+  owner: anton
+  tool_panel_section_label: VCF Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfcommonsamples
+  owner: anton
+  tool_panel_section_label: VCF Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfselectsamples
+  owner: anton
+  tool_panel_section_label: VCF Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfbreakcreatemulti
+  owner: anton
+  tool_panel_section_label: VCF Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfprimers
+  owner: anton
+  tool_panel_section_label: VCF Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfcheck
+  owner: anton
+  tool_panel_section_label: VCF Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfgeno2haplo
+  owner: anton
+  tool_panel_section_label: VCF Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfaddinfo
+  owner: anton
+  tool_panel_section_label: VCF Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcfannotategenotypes
+  owner: anton
+  tool_panel_section_label: VCF Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcftools_subset
+  owner: devteam
+  tool_panel_section_label: VCF Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcftools_merge
+  owner: devteam
+  tool_panel_section_label: VCF Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcftools_annotate
+  owner: devteam
+  tool_panel_section_label: VCF Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcftools_slice
+  owner: devteam
+  tool_panel_section_label: VCF Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcftools_isec
+  owner: devteam
+  tool_panel_section_label: VCF Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: vcftools_compare
+  owner: devteam
+  tool_panel_section_label: VCF Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: msp_oases
+  owner: drosofff
+  tool_panel_section_label: Virus Assembly Dev
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: cherry_pick_fasta
+  owner: drosofff
+  tool_panel_section_label: Virus Assembly Dev
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: msp_cap3
+  owner: drosofff
+  tool_panel_section_label: Virus Assembly Dev
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: clustalw
+  owner: devteam
+  tool_panel_section_label: Virus Assembly Dev
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: igvtools
+  owner: jjohnson
+  tool_panel_section_label: IGV tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: printenv
+  owner: mvdbeek
+  tool_panel_section_label: ''
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: substitutions
+  owner: devteam
+  tool_panel_section_label: Regional Variation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: substitution_rates
+  owner: devteam
+  tool_panel_section_label: Regional Variation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: quality_filter
+  owner: devteam
+  tool_panel_section_label: Regional Variation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: microsats_mutability
+  owner: devteam
+  tool_panel_section_label: Regional Variation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: microsats_alignment_level
+  owner: devteam
+  tool_panel_section_label: Regional Variation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: maf_cpg_filter
+  owner: devteam
+  tool_panel_section_label: Regional Variation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: getindels_2way
+  owner: devteam
+  tool_panel_section_label: Regional Variation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: getindelrates_3way
+  owner: devteam
+  tool_panel_section_label: Regional Variation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: featurecounter
+  owner: devteam
+  tool_panel_section_label: Regional Variation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: indels_3way
+  owner: devteam
+  tool_panel_section_label: Regional Variation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: draw_stacked_barplots
+  owner: devteam
+  tool_panel_section_label: Regional Variation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: delete_overlapping_indels
+  owner: devteam
+  tool_panel_section_label: Regional Variation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: compute_motifs_frequency
+  owner: devteam
+  tool_panel_section_label: Regional Variation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: compute_motif_frequencies_for_all_motifs
+  owner: devteam
+  tool_panel_section_label: Regional Variation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: categorize_elements_satisfying_criteria
+  owner: devteam
+  tool_panel_section_label: Regional Variation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: table_recalibration
+  owner: devteam
+  tool_panel_section_label: 'NGS: GATK Tools (beta)'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: realigner_target_creator
+  owner: devteam
+  tool_panel_section_label: 'NGS: GATK Tools (beta)'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: print_reads
+  owner: devteam
+  tool_panel_section_label: 'NGS: GATK Tools (beta)'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: indel_realigner
+  owner: devteam
+  tool_panel_section_label: 'NGS: GATK Tools (beta)'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: depth_of_coverage
+  owner: devteam
+  tool_panel_section_label: 'NGS: GATK Tools (beta)'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: count_covariates
+  owner: devteam
+  tool_panel_section_label: 'NGS: GATK Tools (beta)'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: analyze_covariates
+  owner: devteam
+  tool_panel_section_label: 'NGS: GATK Tools (beta)'
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: deeptools_compute_matrix_operations
+  owner: bgruening
+  tool_panel_section_label: Deeptools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: deeptools_bam_compare
+  owner: bgruening
+  tool_panel_section_label: Deeptools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: deeptools_multi_bam_summary
+  owner: bgruening
+  tool_panel_section_label: Deeptools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: deeptools_plot_correlation
+  owner: bgruening
+  tool_panel_section_label: Deeptools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: deeptools_plot_coverage
+  owner: bgruening
+  tool_panel_section_label: Deeptools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: deeptools_bam_coverage
+  owner: bgruening
+  tool_panel_section_label: Deeptools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: deeptools_plot_pca
+  owner: bgruening
+  tool_panel_section_label: Deeptools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: deeptools_bigwig_compare
+  owner: bgruening
+  tool_panel_section_label: Deeptools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: deeptools_compute_matrix
+  owner: bgruening
+  tool_panel_section_label: Deeptools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: deeptools_bam_pe_fragmentsize
+  owner: bgruening
+  tool_panel_section_label: Deeptools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: deeptools_multi_bigwig_summary
+  owner: bgruening
+  tool_panel_section_label: Deeptools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: deeptools_plot_fingerprint
+  owner: bgruening
+  tool_panel_section_label: Deeptools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: deeptools_plot_heatmap
+  owner: bgruening
+  tool_panel_section_label: Deeptools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: deeptools_plot_enrichment
+  owner: bgruening
+  tool_panel_section_label: Deeptools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: deeptools_correct_gc_bias
+  owner: bgruening
+  tool_panel_section_label: Deeptools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: deeptools_compute_gc_bias
+  owner: bgruening
+  tool_panel_section_label: Deeptools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: deeptools_plot_profile
+  owner: bgruening
+  tool_panel_section_label: Deeptools
+  tool_shed_url: toolshed.g2.bx.psu.edu
