@@ -1,0 +1,136 @@
+tools:
+- name: batchcorrection
+  owner: melpetera
+  revisions:
+  - 73892ef177e3
+  tool_panel_section_label: Workflow4Metabolomics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+
+- name: biosigner
+  owner: ethevenot
+  revisions:
+  - b2414be87d4b
+  tool_panel_section_label: Workflow4Metabolomics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+
+- name: camera_annotate
+  owner: lecorguille
+  revisions:
+  - 1c30ff90f3ae
+  tool_panel_section_label: Workflow4Metabolomics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+
+- name: checkformat
+  owner: ethevenot
+  revisions:
+  - e194eec8e70c
+  tool_panel_section_label: Workflow4Metabolomics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+
+- name: golm_ws_lib_search
+  owner: fgiacomoni
+  revisions:
+  - 11779b6402bc
+  tool_panel_section_label: Workflow4Metabolomics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+
+- name: heatmap
+  owner: ethevenot
+  revisions:
+  - db1d80e89156
+  tool_panel_section_label: Workflow4Metabolomics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+
+- name: hmdb_ms_search
+  owner: fgiacomoni
+  revisions:
+  - 505956db90c5
+  tool_panel_section_label: Workflow4Metabolomics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+
+- name: lcmsmatching
+  owner: prog
+  revisions:
+  - fb9c0409d85c
+  tool_panel_section_label: Workflow4Metabolomics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+
+- name: metams_rungc
+  owner: yguitton
+  tool_panel_section_label: Workflow4Metabolomics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+
+- name: multivariate
+  owner: ethevenot
+  tool_panel_section_label: Workflow4Metabolomics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+
+
+- name: nmr_alignment
+  owner: marie-tremblay-metatoul
+  tool_panel_section_label: Workflow4Metabolomics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+
+- name: profia
+  owner: ethevenot
+  tool_panel_section_label: Workflow4Metabolomics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+
+- name: qualitymetrics
+  owner: ethevenot
+  tool_panel_section_label: Workflow4Metabolomics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+
+- name: suite_camera
+  owner: lecorguille
+  tool_panel_section_label: Workflow4Metabolomics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+
+- name: suite_xcms
+  owner: lecorguille
+  tool_panel_section_label: Workflow4Metabolomics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+
+- name: transformation
+  owner: ethevenot
+  tool_panel_section_label: Workflow4Metabolomics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+
+- name: univariate
+  owner: ethevenot
+  tool_panel_section_label: Workflow4Metabolomics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+
+- name: withinvariation
+  owner: yguitton
+  tool_panel_section_label: Workflow4Metabolomics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+
+- name: xcms_fillpeaks
+  owner: lecorguille
+  tool_panel_section_label: Workflow4Metabolomics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+
+- name: xcms_group
+  owner: lecorguille
+  tool_panel_section_label: Workflow4Metabolomics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+
+- name: xcms_merge
+  owner: lecorguille
+  tool_panel_section_label: Workflow4Metabolomics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+
+- name: xcms_retcor
+  owner: lecorguille
+  tool_panel_section_label: Workflow4Metabolomics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/
+
+- name: xcms_summary
+  owner: lecorguille
+  tool_panel_section_label: Workflow4Metabolomics
+
+- name: xcms_xcmsset
+  owner: lecorguille
+  tool_panel_section_label: Workflow4Metabolomics
+  tool_shed_url: https://toolshed.g2.bx.psu.edu/

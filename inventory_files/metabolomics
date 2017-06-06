@@ -1,0 +1,5 @@
+[metabolomics]
+#localhost ansible_connection=local
+
+# change with the line bellow if remote target host
+130.211.100.154  ansible_ssh_user="drosofff" ansible_ssh_private_key_file="~/.ssh/google_dsa"
