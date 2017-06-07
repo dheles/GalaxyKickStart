@@ -15,7 +15,7 @@ tools:
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: msp_sr_readmap_and_size_histograms
   owner: drosofff
-  tool_panel_section_label: Mississippi tools (Dev)
+  tool_panel_section_label: Mississippi tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: sra_tools
   owner: iuc
@@ -42,10 +42,6 @@ tools:
   tool_panel_section_label: metavisitor 1.2
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: blast_to_scaffold
-  owner: drosofff
-  tool_panel_section_label: metavisitor 1.2
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: blastn_to_scaffold
   owner: drosofff
   tool_panel_section_label: metavisitor 1.2
   tool_shed_url: toolshed.g2.bx.psu.edu
@@ -473,10 +469,6 @@ tools:
   owner: iuc
   tool_panel_section_label: Search and cluster
   tool_shed_url: toolshed.g2.bx.psu.edu
-- name: trinityrnaseq
-  owner: bhaas
-  tool_panel_section_label: 'NGS: Assembly'
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: cuffmerge
   owner: devteam
   tool_panel_section_label: 'NGS: RNA Analysis'
@@ -656,98 +648,6 @@ tools:
 - name: featurecounts
   owner: yhoogstrate
   tool_panel_section_label: Differential Expression
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: vcfflatten
-  owner: anton
-  tool_panel_section_label: VCF Tools
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: vcfgenotypes
-  owner: anton
-  tool_panel_section_label: VCF Tools
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: vcfhethom
-  owner: anton
-  tool_panel_section_label: VCF Tools
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: vcfbedintersect
-  owner: anton
-  tool_panel_section_label: VCF Tools
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: vcf2tsv
-  owner: anton
-  tool_panel_section_label: VCF Tools
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: vcffixup
-  owner: anton
-  tool_panel_section_label: VCF Tools
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: vcfvcfintersect
-  owner: anton
-  tool_panel_section_label: VCF Tools
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: vcfdistance
-  owner: anton
-  tool_panel_section_label: VCF Tools
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: vcffilter
-  owner: anton
-  tool_panel_section_label: VCF Tools
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: vcfrandomsample
-  owner: anton
-  tool_panel_section_label: VCF Tools
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: vcfallelicprimitives
-  owner: anton
-  tool_panel_section_label: VCF Tools
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: vcfannotate
-  owner: anton
-  tool_panel_section_label: VCF Tools
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: vcfsort
-  owner: anton
-  tool_panel_section_label: VCF Tools
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: vcfcombine
-  owner: anton
-  tool_panel_section_label: VCF Tools
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: vcfleftalign
-  owner: anton
-  tool_panel_section_label: VCF Tools
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: vcfcommonsamples
-  owner: anton
-  tool_panel_section_label: VCF Tools
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: vcfselectsamples
-  owner: anton
-  tool_panel_section_label: VCF Tools
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: vcfbreakcreatemulti
-  owner: anton
-  tool_panel_section_label: VCF Tools
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: vcfprimers
-  owner: anton
-  tool_panel_section_label: VCF Tools
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: vcfcheck
-  owner: anton
-  tool_panel_section_label: VCF Tools
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: vcfgeno2haplo
-  owner: anton
-  tool_panel_section_label: VCF Tools
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: vcfaddinfo
-  owner: anton
-  tool_panel_section_label: VCF Tools
-  tool_shed_url: toolshed.g2.bx.psu.edu
-- name: vcfannotategenotypes
-  owner: anton
-  tool_panel_section_label: VCF Tools
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vcftools_subset
   owner: devteam
