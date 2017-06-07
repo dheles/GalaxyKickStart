@@ -1,5 +1,8 @@
 galaxy_tools_tool_list_files:
   - "extra-files/lbcd41.snv.jussieu.fr/lbcd41_tool_list_wo_revisions.yml"
+
+galaxy_web_processes: 4
+
 additional_files_list:
   - { src: "extra-files/lbcd41.snv.jussieu.fr/welcome.html", dest: "{{ galaxy_server_dir }}/static/" }
   - { src: "extra-files/lbcd41.snv.jussieu.fr/ARTbio_plastisipi_screen.jpg", dest: "{{ galaxy_server_dir }}/static/images" }
