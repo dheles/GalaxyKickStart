@@ -465,7 +465,6 @@ tools:
   tool_shed_url: testtoolshed.g2.bx.psu.edu
 - name: vsearch
   owner: iuc
-  - null
   tool_panel_section_label: Search and cluster
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: vsearch
@@ -638,7 +637,6 @@ tools:
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: repenrich
   owner: drosofff
-  - aed130b47d36
   tool_panel_section_label: Differential Expression
   tool_shed_url: toolshed.g2.bx.psu.edu
 - name: deseq2
