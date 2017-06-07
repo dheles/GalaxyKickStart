@@ -433,10 +433,6 @@ tools:
   owner: devteam
   tool_panel_section_label: 'NGS: SAM Tools'
   tool_shed_url: toolshed.g2.bx.psu.edu
-- name: art
-  owner: iuc
-  tool_panel_section_label: 'NGS: Simulation'
-  tool_shed_url: toolshed.g2.bx.psu.edu
 - name: sample
   owner: cjav
   tool_panel_section_label: 'NGS: Simulation'
