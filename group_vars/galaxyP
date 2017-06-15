@@ -1,0 +1,17 @@
+
+galaxy_tools_tool_list_files:
+  - "extra-files/galaxyP/galaxyP_tool_list.yml"
+
+galaxy_tools_workflows:
+  - "extra-files/galaxyP/APOSTL_Workflow.ga"
+  - "extra-files/galaxyP/Human_MCF7_RNAseq_to_Protein_FASTA.ga"
+  - "extra-files/galaxyP/Human_sequence_database_and_search_variant_confirmation.ga"
+  - "extra-files/galaxyP/Mouse_RNAseq_to_protein_FASTA.ga"
+  - "extra-files/galaxyP/Mouse_sequence_database_and_search_variant_confirmation.ga"
+
+galaxy_web_processes: 4
+
+additional_files_list:
+  - { src: "extra-files/galaxy-kickstart/welcome.html", dest: "{{ galaxy_server_dir }}/static/" }
+  - { src: "extra-files/galaxy-kickstart/galaxy-kickstart_logo.png", dest: "{{ galaxy_server_dir }}/static/images/" }
+  - { src: "extra-files/tool_sheds_conf.xml", dest: "{{ galaxy_config_dir }}" }

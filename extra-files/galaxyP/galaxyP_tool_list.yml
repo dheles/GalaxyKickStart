@@ -1,0 +1,252 @@
+install_tool_dependencies: True
+install_repository_dependencies: True
+install_resolver_dependencies: True
+
+tools:
+- name: query_crapome
+  owner: bornea
+  revisions:
+  - f1459638e1bc
+  tool_panel_section_label: Workflow tools
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: saint_preprocessing
+  owner: bornea
+  revisions:
+  - 6ad498eac0e2
+  tool_panel_section_label: Workflow tools
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: saintexpress
+  owner: bornea
+  revisions:
+  - 67631a640534
+  tool_panel_section_label: Workflow tools
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: dbbuilder
+  owner: galaxyp
+  revisions:
+  - 19ee2e85931a
+  tool_panel_section_label: Workflow tools
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: fasta_merge_files_and_filter_unique_sequences
+  owner: galaxyp
+  revisions:
+  - 2904d46167da
+  tool_panel_section_label: Workflow tools
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: peptideshaker
+  owner: galaxyp
+  revisions:
+  - 7f2aeb19650f
+  - ff592231f118
+  tool_panel_section_label: Workflow tools
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: bcftools_call
+  owner: iuc
+  revisions:
+  - a531317a3527
+  tool_panel_section_label: Workflow tools
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: samtools_mpileup
+  owner: devteam
+  revisions:
+  - bfc4517aa037
+  tool_panel_section_label: Workflow tools
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: custom_pro_db
+  owner: galaxyp
+  revisions:
+  - 2656b09d2046
+  tool_panel_section_label: Workflow tools
+  tool_shed_url: https://testtoolshed.g2.bx.psu.edu
+- name: regex_find_replace
+  owner: galaxyp
+  revisions:
+  - 209b7c5ee9d7
+  tool_panel_section_label: Workflow tools
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: query_tabular
+  owner: jjohnson
+  revisions:
+  - 19ae309ec53c
+  tool_panel_section_label: Workflow tools
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: ncbi_blast_plus
+  owner: devteam
+  revisions:
+  - 3034ce97dd33
+  tool_panel_section_label: Workflow tools
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: tabular_to_fasta
+  owner: devteam
+  revisions:
+  - 0b4e36026794
+  tool_panel_section_label: Workflow tools
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: blastxml_to_tabular_selectable
+  owner: galaxyp
+  revisions:
+  - 5da5dcc5e13a
+  tool_panel_section_label: Workflow tools
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: tophat2
+  owner: devteam
+  revisions:
+  - 16c4255042be
+  tool_panel_section_label: Workflow tools
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: regex_find_replace
+  owner: galaxyp
+  revisions:
+  - 209b7c5ee9d7
+  tool_panel_section_label: Workflow tools
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: concat_fasta_files
+  owner: mandorodriguez
+  revisions:
+  - fe8aed46e026
+  tool_panel_section_label: Workflow tools
+  tool_shed_url: https://toolshed.g2.bx.psu.edu
+- name: query_tabular
+  owner: jjohnson
+  revisions:
+  - 19ae309ec53c
+  tool_panel_section_label: GalaxyP Tour Apps
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: blastxml_to_tabular_selectable
+  owner: galaxyp
+  revisions:
+  - 5da5dcc5e13a
+  tool_panel_section_label: GalaxyP Tour Apps
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: tabular_to_fasta
+  owner: devteam
+  revisions:
+  - 0b4e36026794
+  tool_panel_section_label: GalaxyP Tour Apps
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: peptideshaker
+  owner: galaxyp
+  revisions:
+  - ff592231f118
+  tool_panel_section_label: GalaxyP Tour Apps
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: tophat2
+  owner: devteam
+  revisions:
+  - 16c4255042be
+  tool_panel_section_label: GalaxyP Tour Apps
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ncbi_blast_plus
+  owner: devteam
+  revisions:
+  - 3034ce97dd33
+  tool_panel_section_label: GalaxyP Tour Apps
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ncbi_blast_plus
+  owner: devteam
+  revisions:
+  - 3034ce97dd33
+  tool_panel_section_label: GalaxyP Tour Apps
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: custom_pro_db
+  owner: galaxyp
+  revisions:
+  - 2656b09d2046
+  tool_panel_section_label: Sample Specific DB generation
+  tool_shed_url: testtoolshed.g2.bx.psu.edu
+- name: regex_find_replace
+  owner: galaxyp
+  revisions:
+  - 209b7c5ee9d7
+  tool_panel_section_label: Sample Specific DB generation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: concat_fasta_files
+  owner: mandorodriguez
+  revisions:
+  - fe8aed46e026
+  tool_panel_section_label: Sample Specific DB generation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: bcftools_view
+  owner: iuc
+  revisions:
+  - cc016cb332cd
+  tool_panel_section_label: Sample Specific DB generation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: bcftools_call
+  owner: iuc
+  revisions:
+  - a531317a3527
+  tool_panel_section_label: Sample Specific DB generation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: samtools_mpileup
+  owner: devteam
+  revisions:
+  - bfc4517aa037
+  tool_panel_section_label: Sample Specific DB generation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: saint_preprocessing
+  owner: bornea
+  revisions:
+  - 6ad498eac0e2
+  tool_panel_section_label: Protein Affinity
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: query_crapome
+  owner: bornea
+  revisions:
+  - f1459638e1bc
+  tool_panel_section_label: Protein Affinity
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: saint_protein_interactions
+  owner: bornea
+  revisions:
+  - c414a56f5874
+  tool_panel_section_label: Protein Affinity
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: filter_fasta
+  owner: bornea
+  revisions:
+  - 3833aebf8d3a
+  tool_panel_section_label: Protein Affinity
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: nsaf_scoring
+  owner: bornea
+  revisions:
+  - f59b4984a974
+  tool_panel_section_label: Protein Affinity
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: saintexpress
+  owner: bornea
+  revisions:
+  - 67631a640534
+  tool_panel_section_label: Protein Affinity
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: prohits_dotplot_generator
+  owner: bornea
+  revisions:
+  - 16df07f285c0
+  tool_panel_section_label: Protein Affinity
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: apostl_static_bubblegraph_generator
+  owner: bornea
+  revisions:
+  - 33e9cdd6bbe8
+  tool_panel_section_label: Protein Affinity
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fasta_merge_files_and_filter_unique_sequences
+  owner: galaxyp
+  revisions:
+  - 2904d46167da
+  tool_panel_section_label: Sequence Database Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: dbbuilder
+  owner: galaxyp
+  revisions:
+  - a85fbebe8b2f
+  tool_panel_section_label: Sequence Database Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: peptideshaker
+  owner: galaxyp
+  revisions:
+  - 7f2aeb19650f
+  tool_panel_section_label: Protein/Peptide Search Algorithms
+  tool_shed_url: toolshed.g2.bx.psu.edu
