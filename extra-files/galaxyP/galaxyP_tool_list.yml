@@ -250,3 +250,1029 @@ tools:
   - 7f2aeb19650f
   tool_panel_section_label: Protein/Peptide Search Algorithms
   tool_shed_url: toolshed.g2.bx.psu.edu
+- name: dbbuilder
+  owner: galaxyp
+  revisions:
+  - a85fbebe8b2f
+  tool_panel_section_label: Get Data
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: column_maker
+  owner: devteam
+  revisions:
+  - 626658afe4cb
+  tool_panel_section_label: Text Manipulation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: text_processing
+  owner: bgruening
+  revisions:
+  - 01ca80da2266
+  tool_panel_section_label: Text Manipulation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: text_processing
+  owner: bgruening
+  revisions:
+  - 01ca80da2266
+  tool_panel_section_label: Text Manipulation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: text_processing
+  owner: bgruening
+  revisions:
+  - 01ca80da2266
+  tool_panel_section_label: Text Manipulation
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: mgf_formatter
+  owner: galaxyp
+  revisions:
+  - 51ba38ae36c2
+  tool_panel_section_label: Convert Formats
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: decoyfasta
+  owner: galaxyp
+  revisions:
+  - c15d72720643
+  tool_panel_section_label: FASTA Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fasta_filter_by_length
+  owner: devteam
+  revisions:
+  - c8cd0a03db49
+  tool_panel_section_label: FASTA Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: tabular_to_fasta
+  owner: devteam
+  revisions:
+  - 0b4e36026794
+  tool_panel_section_label: FASTA Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: find_subsequences
+  owner: bgruening
+  revisions:
+  - d882a0a75759
+  tool_panel_section_label: FASTA Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fasta_to_tabular
+  owner: devteam
+  revisions:
+  - 7e801ab2b70e
+  tool_panel_section_label: FASTA Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fasta_nucleotide_changer
+  owner: devteam
+  revisions:
+  - f81d4362b6c1
+  tool_panel_section_label: FASTA Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fasta_formatter
+  owner: devteam
+  revisions:
+  - 9457a20156db
+  tool_panel_section_label: FASTA Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: seq_select_by_id
+  owner: peterjc
+  revisions:
+  - 8e1a90917fa7
+  tool_panel_section_label: FASTA Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: seq_rename
+  owner: peterjc
+  revisions:
+  - e1398f2ba9fe
+  tool_panel_section_label: FASTA Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: seq_filter_by_id
+  owner: peterjc
+  revisions:
+  - 141612f8c3e3
+  tool_panel_section_label: FASTA Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fasta_merge_files_and_filter_unique_sequences
+  owner: galaxyp
+  revisions:
+  - 9ad0d336e5ed
+  tool_panel_section_label: FASTA Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: fasta_compute_length
+  owner: devteam
+  revisions:
+  - de2db1bdfbf8
+  tool_panel_section_label: FASTA Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: filter_bed_on_splice_junctions
+  owner: jjohnson
+  revisions:
+  - 915e5c5e02e6
+  tool_panel_section_label: BED Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: translate_bed_sequences
+  owner: jjohnson
+  revisions:
+  - d328db400280
+  tool_panel_section_label: BED Tools
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_idmapper
+  owner: galaxyp
+  revisions:
+  - b5d0905419da
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_accuratemasssearch
+  owner: galaxyp
+  revisions:
+  - 6bfb4c92d4fd
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_internalcalibration
+  owner: galaxyp
+  revisions:
+  - 975efdac387b
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_simplesearchengine
+  owner: galaxyp
+  revisions:
+  - fd64fa0632ab
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_precursormasscorrector
+  owner: galaxyp
+  revisions:
+  - 7788e4d10cc6
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_rtpredict
+  owner: galaxyp
+  revisions:
+  - 44f9dcfd2542
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_isobaricanalyzer
+  owner: galaxyp
+  revisions:
+  - 916f41a35640
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_fidoadapter
+  owner: galaxyp
+  revisions:
+  - b4f9f430bd64
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_featurefinderidentification
+  owner: galaxyp
+  revisions:
+  - d12500c4d67e
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_additiveseries
+  owner: galaxyp
+  revisions:
+  - f2fa56110042
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_mssimulator
+  owner: galaxyp
+  revisions:
+  - 7c2b85eb3ccf
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_maprttransformer
+  owner: galaxyp
+  revisions:
+  - 652ee76d7113
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_mrmpairfinder
+  owner: galaxyp
+  revisions:
+  - db0f72c69932
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_openswathassaygenerator
+  owner: galaxyp
+  revisions:
+  - c5136f02a0fa
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_featurelinkerunlabeledqt
+  owner: galaxyp
+  revisions:
+  - 0d277791c853
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_featurelinkerlabeled
+  owner: galaxyp
+  revisions:
+  - a07f3900f271
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_idposteriorerrorprobability
+  owner: galaxyp
+  revisions:
+  - 4a27429b2aca
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_converttsvtotraml
+  owner: galaxyp
+  revisions:
+  - 0daa2f6cb4a3
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_mrmmapper
+  owner: galaxyp
+  revisions:
+  - b79427a7cd3d
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_featurefindermrm
+  owner: galaxyp
+  revisions:
+  - 4b854fea7242
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_metabolitespectralmatcher
+  owner: galaxyp
+  revisions:
+  - d2b1258ee673
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_consensusid
+  owner: galaxyp
+  revisions:
+  - 8960fb791701
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_spectrafilterscaler
+  owner: galaxyp
+  revisions:
+  - 00e2888ff977
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_fuzzydiff
+  owner: galaxyp
+  revisions:
+  - a09c7f747b9c
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_featurefindermetabo
+  owner: galaxyp
+  revisions:
+  - 3256eccfdaa7
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_spectrafilternormalizer
+  owner: galaxyp
+  revisions:
+  - 1557ac8060b8
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_peakpickerhires
+  owner: galaxyp
+  revisions:
+  - 5ae104d0da6e
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_lowmempeakpickerhires
+  owner: galaxyp
+  revisions:
+  - f4f9fd3b177d
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_highresprecursormasscorrector
+  owner: galaxyp
+  revisions:
+  - 9e26f5c770f8
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_svmtheoreticalspectrumgeneratortrainer
+  owner: galaxyp
+  revisions:
+  - a92f7bc73817
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_compnovo
+  owner: galaxyp
+  revisions:
+  - 9a093c8b7bf5
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_idscoreswitcher
+  owner: galaxyp
+  revisions:
+  - 96484de4d4bd
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_noisefiltergaussian
+  owner: galaxyp
+  revisions:
+  - b6baace535ae
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_idfileconverter
+  owner: galaxyp
+  revisions:
+  - 5588e443a7db
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_spectrafilternlargest
+  owner: galaxyp
+  revisions:
+  - b1f9b859d84f
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_openswathdecoygenerator
+  owner: galaxyp
+  revisions:
+  - d38ef9cbc114
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_mrmtransitiongrouppicker
+  owner: galaxyp
+  revisions:
+  - 2c8729a286ea
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_qcimporter
+  owner: galaxyp
+  revisions:
+  - 2edc51d55cea
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_speclibcreator
+  owner: galaxyp
+  revisions:
+  - 564a6acb89e8
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_ticcalculator
+  owner: galaxyp
+  revisions:
+  - cb4738f26b96
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_rtevaluation
+  owner: galaxyp
+  revisions:
+  - d5b15b21844b
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_mascotadapter
+  owner: galaxyp
+  revisions:
+  - ec7b8772f4c9
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_openswathfilesplitter
+  owner: galaxyp
+  revisions:
+  - 8ddc26f9e2a5
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_dtaextractor
+  owner: galaxyp
+  revisions:
+  - 6a245bc8bd5d
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_ptpredict
+  owner: galaxyp
+  revisions:
+  - 56c8cc246637
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_fileconverter
+  owner: galaxyp
+  revisions:
+  - 6634cad7d797
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_filemerger
+  owner: galaxyp
+  revisions:
+  - 39e8fde08881
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_openswathrewritetofeaturexml
+  owner: galaxyp
+  revisions:
+  - 1e14ca98808b
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_spectrafiltermarkermower
+  owner: galaxyp
+  revisions:
+  - e97bb4aa1386
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_semanticvalidator
+  owner: galaxyp
+  revisions:
+  - f5dfeed76b4c
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_msgfplusadapter
+  owner: galaxyp
+  revisions:
+  - 2b2a7551a857
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_openswathconfidencescoring
+  owner: galaxyp
+  revisions:
+  - 70943f76cea6
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_masstraceextractor
+  owner: galaxyp
+  revisions:
+  - 2fdd110666cb
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_proteinquantifier
+  owner: galaxyp
+  revisions:
+  - 7652a9664052
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_peakpickeriterative
+  owner: galaxyp
+  revisions:
+  - 861c8e12c4ef
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_idmerger
+  owner: galaxyp
+  revisions:
+  - 18f93351f8b6
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_erpairfinder
+  owner: galaxyp
+  revisions:
+  - 48d5d7e0476f
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_openswathdiaprescoring
+  owner: galaxyp
+  revisions:
+  - b1af731ae341
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_peptideindexer
+  owner: galaxyp
+  revisions:
+  - 539a3a4dcc9e
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_qccalculator
+  owner: galaxyp
+  revisions:
+  - 5759f19a8886
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_mapstatistics
+  owner: galaxyp
+  revisions:
+  - e4c1d9a768db
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_idmassaccuracy
+  owner: galaxyp
+  revisions:
+  - a4a59fcd0941
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_spectramerger
+  owner: galaxyp
+  revisions:
+  - 899812f5c032
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_labeledeval
+  owner: galaxyp
+  revisions:
+  - ee49f806140b
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_idsplitter
+  owner: galaxyp
+  revisions:
+  - dbaa707ce149
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_rtmodel
+  owner: galaxyp
+  revisions:
+  - 8480765683cf
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_demeanderize
+  owner: galaxyp
+  revisions:
+  - e294fac54e44
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_masscalculator
+  owner: galaxyp
+  revisions:
+  - ca71813dee8a
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_mzmlsplitter
+  owner: galaxyp
+  revisions:
+  - 60b83eb38cd4
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_iddecoyprobability
+  owner: galaxyp
+  revisions:
+  - 9f80aaca4a13
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_itraqanalyzer
+  owner: galaxyp
+  revisions:
+  - 014f4e11a3d9
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_idconflictresolver
+  owner: galaxyp
+  revisions:
+  - 8a04ed1c1d1b
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_openswathanalyzer
+  owner: galaxyp
+  revisions:
+  - f9ead04f81ef
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_spectrafilterthresholdmower
+  owner: galaxyp
+  revisions:
+  - d4fa92b05b88
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_inspectadapter
+  owner: galaxyp
+  revisions:
+  - 4fba18bcca36
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_converttramltotsv
+  owner: galaxyp
+  revisions:
+  - e66eba918cf0
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_featurefinderisotopewavelet
+  owner: galaxyp
+  revisions:
+  - ca7fa2f70a55
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_qcshrinker
+  owner: galaxyp
+  revisions:
+  - 2092c98a7c43
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_inclusionexclusionlistcreator
+  owner: galaxyp
+  revisions:
+  - 468da161b121
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_precursorionselector
+  owner: galaxyp
+  revisions:
+  - 45a9649b4891
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_qcembedder
+  owner: galaxyp
+  revisions:
+  - 66aa3156aeb5
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_tofcalibration
+  owner: galaxyp
+  revisions:
+  - 5e6e9b779e4d
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_noisefiltersgolay
+  owner: galaxyp
+  revisions:
+  - 2b7b288f2d2a
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_sequencecoveragecalculator
+  owner: galaxyp
+  revisions:
+  - 8d53c5cbf380
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_xmlvalidator
+  owner: galaxyp
+  revisions:
+  - 50629057c7fb
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_externalcalibration
+  owner: galaxyp
+  revisions:
+  - 8e49b580130d
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_phosphoscoring
+  owner: galaxyp
+  revisions:
+  - 0a1e6a367122
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_rnpxl
+  owner: galaxyp
+  revisions:
+  - 43ddae9b94a4
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_consensusmapnormalizer
+  owner: galaxyp
+  revisions:
+  - ac52721105ed
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_filefilter
+  owner: galaxyp
+  revisions:
+  - d6878d27f051
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_luciphoradapter
+  owner: galaxyp
+  revisions:
+  - a337220a26a0
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_topperc
+  owner: galaxyp
+  revisions:
+  - fc7bbbcd8194
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_spectrafiltersqrtmower
+  owner: galaxyp
+  revisions:
+  - 080af4213d0b
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_featurelinkerunlabeled
+  owner: galaxyp
+  revisions:
+  - 2fbd9dde16fa
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_proteininference
+  owner: galaxyp
+  revisions:
+  - 53c4762b5c8c
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_textexporter
+  owner: galaxyp
+  revisions:
+  - be5c2f82c8ef
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_ptmodel
+  owner: galaxyp
+  revisions:
+  - 2b34b435c177
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_baselinefilter
+  owner: galaxyp
+  revisions:
+  - 3068cadfb43e
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_qcexporter
+  owner: galaxyp
+  revisions:
+  - 15583b6b555d
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_digestor
+  owner: galaxyp
+  revisions:
+  - f0cdb0f5f5ea
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_qcextractor
+  owner: galaxyp
+  revisions:
+  - 6a16b2a96a5e
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_mztabexporter
+  owner: galaxyp
+  revisions:
+  - bf32e0bcf554
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_rnpxlxicfilter
+  owner: galaxyp
+  revisions:
+  - 4de461b0c05d
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_ffeval
+  owner: galaxyp
+  revisions:
+  - 7b61e3480212
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_metaprosip
+  owner: galaxyp
+  revisions:
+  - f0e3cb65a6bd
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_transformationevaluation
+  owner: galaxyp
+  revisions:
+  - 3beec62cd4af
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_openswathworkflow
+  owner: galaxyp
+  revisions:
+  - 380ced982ec7
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_spectrafilterbernnorm
+  owner: galaxyp
+  revisions:
+  - 59abe4653f7d
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_qcmerger
+  owner: galaxyp
+  revisions:
+  - b2a0d4fa0282
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_decoydatabase
+  owner: galaxyp
+  revisions:
+  - 8ced1ef014ae
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_openswathrtnormalizer
+  owner: galaxyp
+  revisions:
+  - 566046627ebf
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_featurefindermultiplex
+  owner: galaxyp
+  revisions:
+  - ca88bd28f116
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_mapnormalizer
+  owner: galaxyp
+  revisions:
+  - c7cdeb51c3b2
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_idfilter
+  owner: galaxyp
+  revisions:
+  - c427a8628cbe
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_eicextractor
+  owner: galaxyp
+  revisions:
+  - 9879f637966c
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_openswathmzmlfilecacher
+  owner: galaxyp
+  revisions:
+  - 5a7e590eb955
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_multiplexresolver
+  owner: galaxyp
+  revisions:
+  - 6e272bce9aa1
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_lowmempeakpickerhires_randomaccess
+  owner: galaxyp
+  revisions:
+  - 5a0ab644f822
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_xtandemadapter
+  owner: galaxyp
+  revisions:
+  - f9bc00c0ebed
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_spectrafilterwindowmower
+  owner: galaxyp
+  revisions:
+  - 5881fd2ef62b
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_digestormotif
+  owner: galaxyp
+  revisions:
+  - 0a6740508092
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_idextractor
+  owner: galaxyp
+  revisions:
+  - 8cc01552c669
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_featurefindercentroided
+  owner: galaxyp
+  revisions:
+  - b8cce52343c2
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_proteinresolver
+  owner: galaxyp
+  revisions:
+  - 154998956e7a
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_fileinfo
+  owner: galaxyp
+  revisions:
+  - 6f47f5ff2028
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_idripper
+  owner: galaxyp
+  revisions:
+  - 9af6146f168b
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_compnovocid
+  owner: galaxyp
+  revisions:
+  - 7a48ff94ab21
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_spectrafilterparentpeakmower
+  owner: galaxyp
+  revisions:
+  - 509659eeec69
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_mascotadapteronline
+  owner: galaxyp
+  revisions:
+  - 03b4eeb48592
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_featurefindersuperhirn
+  owner: galaxyp
+  revisions:
+  - aaf987159140
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_openswathfeaturexmltotsv
+  owner: galaxyp
+  revisions:
+  - c1f46b63e8c8
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_openswathchromatogramextractor
+  owner: galaxyp
+  revisions:
+  - f41f97505717
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_falsediscoveryrate
+  owner: galaxyp
+  revisions:
+  - 518b1730cf2a
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_decharger
+  owner: galaxyp
+  revisions:
+  - f57d81697646
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_peakpickerwavelet
+  owner: galaxyp
+  revisions:
+  - 4ee66bd832d9
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_tmtanalyzer
+  owner: galaxyp
+  revisions:
+  - d05c7c810dd8
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_idrtcalibration
+  owner: galaxyp
+  revisions:
+  - c76e74ff4061
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_mapalignmentevaluation
+  owner: galaxyp
+  revisions:
+  - cf8a65bc9e8a
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: openms_cvinspector
+  owner: galaxyp
+  revisions:
+  - 980be33b92c9
+  tool_panel_section_label: OpenMS
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: peptideshaker
+  owner: galaxyp
+  revisions:
+  - 79e37eff006d
+  tool_panel_section_label: PeptideShaker
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: blastxml_to_tabular_selectable
+  owner: galaxyp
+  revisions:
+  - 5da5dcc5e13a
+  tool_panel_section_label: BLAST
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: idpqonvert
+  owner: galaxyp
+  revisions:
+  - d1f7b2395bc2
+  tool_panel_section_label: Bumbershoot
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: directag_and_tagrecon
+  owner: galaxyp
+  revisions:
+  - 45b68db74563
+  tool_panel_section_label: Bumbershoot
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ltq_iquant_cli
+  owner: galaxyp
+  revisions:
+  - 1b8003300cf5
+  tool_panel_section_label: ''
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: msconvert
+  owner: galaxyp
+  revisions:
+  - dd4ba10d0c45
+  tool_panel_section_label: ''
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: ms_data_converter
+  owner: galaxyp
+  revisions:
+  - a36e9f847308
+  tool_panel_section_label: ''
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: peptide_to_gff
+  owner: galaxyp
+  revisions:
+  - 42c89c1bbda9
+  tool_panel_section_label: ''
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: pepxml_to_xls
+  owner: galaxyp
+  revisions:
+  - 2e6912b6ee38
+  tool_panel_section_label: ''
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: protxml_to_xls
+  owner: galaxyp
+  revisions:
+  - 156ef965340e
+  tool_panel_section_label: ''
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: psm_eval
+  owner: galaxyp
+  revisions:
+  - 91fb73c8619c
+  tool_panel_section_label: ''
+  tool_shed_url: toolshed.g2.bx.psu.edu
+- name: percolator
+  owner: galaxyp
+  revisions:
+  - dce55ca21b98
+  tool_panel_section_label: Percolator
+  tool_shed_url: toolshed.g2.bx.psu.edu
