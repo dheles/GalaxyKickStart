@@ -1,5 +1,5 @@
 [kickstart]
-localhost ansible_connection=local
+#localhost ansible_connection=local
 
 # if remote target, replace the above line by
-# <remote host IP> ansible_ssh_user="root" ansible_ssh_private_key_file="<path/to/your/private/key>"
+192.54.201.136 ansible_ssh_user="root" ansible_ssh_private_key_file="~/.ssh/ifb_dsa"
